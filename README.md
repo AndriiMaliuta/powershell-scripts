@@ -2,6 +2,10 @@
 
 Some useful scripts that can be used in PowerShell on Windows (some also on Linux).
 
+- work with files system
+- work with services
+- Environment and Path
+
 
 Official:
 - https://www.powershellgallery.com/
