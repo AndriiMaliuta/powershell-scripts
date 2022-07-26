@@ -1,8 +1,10 @@
+ # request
  for ($num = 1 ; $num -le 10 ; $num++){  Invoke-WebRequest https://us-central1-andmal-bot.cloudfunctions.net/dotnet2 }
  
-#  
-1..10 | 
-# 
+#  request with pipe
+ 1..20 | % { Invoke-WebRequest https://us-central1-andmal-bot.cloudfunctions.net/dotnet2 }
+
+# files
 
 foreach ($file in { Get-Item * })
 {
